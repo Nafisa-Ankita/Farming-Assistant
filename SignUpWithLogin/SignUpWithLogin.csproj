@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2FB0EF9A-8144-4D91-A2C9-DDADA15E3F15}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>SignUpWithLogin</RootNamespace>
+    <AssemblyName>SignUpWithLogin</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Akh1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Akh1.Designer.cs">
+      <DependentUpon>Akh1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Akh2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Akh2.Designer.cs">
+      <DependentUpon>Akh2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Akh3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Akh3.Designer.cs">
+      <DependentUpon>Akh3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculate.Designer.cs">
+      <DependentUpon>Calculate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ContactUs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ContactUs.Designer.cs">
+      <DependentUpon>ContactUs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DhanRug1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DhanRug1.Designer.cs">
+      <DependentUpon>DhanRug1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FarmerHomePage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FarmerHomePage.Designer.cs">
+      <DependentUpon>FarmerHomePage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FarmerPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FarmerPage.Designer.cs">
+      <DependentUpon>FarmerPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FarmerWindows.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FarmerWindows.Designer.cs">
+      <DependentUpon>FarmerWindows.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FarmerWindowsAkh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FarmerWindowsAkh.Designer.cs">
+      <DependentUpon>FarmerWindowsAkh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FarmerWindowsDhan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FarmerWindowsDhan.Designer.cs">
+      <DependentUpon>FarmerWindowsDhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BuyPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BuyPage.designer.cs">
+      <DependentUpon>BuyPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form2.Designer.cs">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="KulPukaRug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KulPukaRug.Designer.cs">
+      <DependentUpon>KulPukaRug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PataBlastRug.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PataBlastRug.Designer.cs">
+      <DependentUpon>PataBlastRug.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Payment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Payment.designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SellPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SellPage.designer.cs">
+      <DependentUpon>SellPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LOGIN.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LOGIN.Designer.cs">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SIGNUP.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SIGNUP.Designer.cs">
+      <DependentUpon>SIGNUP.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Akh1.resx">
+      <DependentUpon>Akh1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Akh2.resx">
+      <DependentUpon>Akh2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Akh3.resx">
+      <DependentUpon>Akh3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculate.resx">
+      <DependentUpon>Calculate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ContactUs.resx">
+      <DependentUpon>ContactUs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DhanRug1.resx">
+      <DependentUpon>DhanRug1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FarmerHomePage.resx">
+      <DependentUpon>FarmerHomePage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FarmerPage.resx">
+      <DependentUpon>FarmerPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FarmerWindows.resx">
+      <DependentUpon>FarmerWindows.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FarmerWindowsAkh.resx">
+      <DependentUpon>FarmerWindowsAkh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FarmerWindowsDhan.resx">
+      <DependentUpon>FarmerWindowsDhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BuyPage.resx">
+      <DependentUpon>BuyPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form2.resx">
+      <DependentUpon>Form2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KulPukaRug.resx">
+      <DependentUpon>KulPukaRug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PataBlastRug.resx">
+      <DependentUpon>PataBlastRug.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SellPage.resx">
+      <DependentUpon>SellPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LOGIN.resx">
+      <DependentUpon>LOGIN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SIGNUP.resx">
+      <DependentUpon>SIGNUP.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Buy Project.csproj" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ধান ২.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\akh.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\alu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gom.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\motorsuti.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\path.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sorisha.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tula.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vutta.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badami dag rug.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kul puka rug.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pata blast rug.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item 3.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item 2 part 1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\akh 2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\akh 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\akh1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farming pic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pexels-airin-party-767240.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\HeaderPic.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\farmeing serves1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\online sell farmer service 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\service 3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logopage 11111111.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logopage green frame.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\best login logo.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\about.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\aboutpart2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Contact us 1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DEFAULTPIC.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DEC.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DEC1.jpg" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
